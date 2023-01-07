@@ -1,10 +1,9 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2.1.1",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
   "hostRequirements": {
     "cpus": 4
   },
   "waitFor": "onCreateCommand",
-  "initializeCommand": "docker system prune -af",
   "updateContentCommand": "python3 -m pip install -r requirements.txt",
   "postCreateCommand": "",
   "customizations": {
